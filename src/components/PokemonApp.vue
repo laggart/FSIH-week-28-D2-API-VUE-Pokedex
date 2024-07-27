@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Logo Pokemon">
-      <h1>Pokedex JC</h1>
+      <h1>Pokedex de MIA</h1>
       <PokemonSearch :apiUrl="apiUrl" @setPokemonUrl="setPokemonUrl"/>
       <PokemonList :imageUrl="imageUrl" :apiUrl="apiUrl" @setPokemonUrl="setPokemonUrl"/>
       <PokemonDetail
@@ -60,6 +60,6 @@ font-weight: normal;
 }
 
 h1 {
-color: #efefef;
+color: #e783e5;
 }
 </style>
